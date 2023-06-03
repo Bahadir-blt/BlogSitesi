@@ -1,0 +1,180 @@
+                 /* Kullanılan Fontun Eklenmesi ; Google Fontsdan Alınmıştır */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* Temel Css Kodlarının Eklenmesi (Tüm Sayfamızı Etkiler */
+
+* {	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+/* !Temel Css Kodlarının Bitişi */
+
+/* Ana Yazının Şekillenmesi */
+h1 {	font-weight: 300;
+	font-size: 50px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+/* ! Şekillendirme Sonu */
+
+/* Giriş Bölümü */
+.intro {	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+/*! Giriş Bölümü Bitiş */
+
+/* Video Konumlandırma */
+.video-container {	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #333;
+}
+.video-container video {
+    min-width: 100%;
+	min-height: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+/* ! Video Konumlandırma Bitiş */
+
+/* Karartma Efekti */
+.video-container:after {	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+/* ! Karartma Efekti Bitiş */
+
+.content {	z-index: 2;
+}
+
+.read-more {	display: inline-block;
+	padding: 10px 30px;
+	background: #333;
+	color: #fff;
+	border-radius: 5px;
+	border: solid #fff 1px;
+	margin-top: 25px;
+	opacity: 0.8;
+    transition: .2s all;
+    text-decoration: none;
+}
+
+.read-more:hover {	transform: scale(.9);
+}
+
+/* İçerik (Opsiyonel) */
+#page {	padding: 40px;
+	text-align: center;
+}
+
+#page p {	font-size: 1.2rem;
+	max-width: 600px;
+	margin: auto;
+}
+/* !İçerik Bitiş */
+
+/* footer start */
+.footer {
+  background-color:black;
+  text-align: center;
+}
+
+.footer .search {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .search .search-input {
+  width: 30rem;
+}
+
+.footer .search .btn-primary {
+  background-color: white;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+}
+
+.footer .share {
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 2rem 0;
+}
+
+.footer .share a {
+  text-decoration: none;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  color: #fff;
+  font-size: 2rem;
+  border: white;
+  border-radius: 55px;
+  margin: 0.3rem;
+}
+
+.footer .share a:hover {
+  background-color: blue;
+}
+
+.footer .links {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border: var(--border);
+}
+
+.footer .links a {
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer .links a:hover {
+  background-color: var(--black-color);
+  opacity: 0.7;
+}
+
+
+.footer .links a.active {
+  background-color: blue;
+}
+
+.footer .credit {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+  padding-top: 1.5rem;
+}
+
+.footer .credit span {
+  color: blue;
+}
+
+/* ! footer end */
+
+
