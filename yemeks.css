@@ -1,10 +1,15 @@
+/* Kullanınlan Fontun Eklenmesi */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
+ 
+/* Kullanılıcak Olan Renklerin Tanıtılması */
 :root {
-    --main-color: #e84242;
+ 
     --black-color: #121212;
     --border: 0.1rem solid rgba(255 255 255 0.4);
 }
+/* !Bitiş */
+
+/*Temel Css Kodlarının Yazılması */
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -17,7 +22,9 @@
     transition: 0.2s ease;
 }
 
-/* base html codes */
+/* !BİTİŞ */
+
+/* Temel HTML CSS ile şekillendirilmesi*/
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -87,7 +94,9 @@ a {
     border-radius: 3rem;
 }
 
-/* header start */
+/* !BİTİŞ */
+
+/*  Başlığın *HEADER* Şekillendirilmesi*/
 .logo img {
     height: 7rem;
     width: 75px;
@@ -131,28 +140,10 @@ a {
 #menu-btn{
    display: none;
 }
+/* !Başlığın *HEADER* Şekillendirilmesi !BİTİŞ! */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header end */
-
-
-/* home start   */
+/* Ana Görünümün Şekillenmesi   */
  .home {
      min-height: 100vh;
      background: url(img/wallpaperbetter.jpg) no-repeat;
@@ -180,11 +171,11 @@ a {
      color: #ccc;
  }
 
- /* home end */
+ /*! Ana Görünüm BİTİŞ*/
 
 
 
- /* products start  */
+ /* Ürünlerin Tanıtılmasının Şekillendirilmesi  */
   .products .box-container {
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -222,13 +213,7 @@ a {
      overflow-wrap: anywhere;
  }
 
- .products .box-container .dark-bg .box-head .name,
- .products .box-container .dark-bg .box-head .title {
-     color: #000000;
-
- }
-
- .products .box-container img {
+  .products .box-container img {
      position: absolute;
      top: 50%;
      left: 50%;
@@ -239,10 +224,6 @@ a {
      border-radius: 3rem;
  }
  
- 
-
-
-
  .products .box-container .box-bottom {
      display: flex;
      justify-content: space-between;
@@ -281,10 +262,10 @@ a {
  }
 
 
- /* products end */
+ /*! Ürünlerin Tanıtılmasının Şekillendirilmesi BİTİŞ*/
 
 
-/* review start */
+/* Minyon Yorumlar Kısmının Şekillendirilmesi*/
 .review .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -315,7 +296,7 @@ a {
 .review .box-container .box h3 {
     padding: 1rem 0;
     font-size: 2rem;
-    color: var(--main-color);
+    
 }
 
 .review .box-container .box .stars i {
@@ -323,13 +304,9 @@ a {
     color: gold;
 }
 
-/* review end */
+/*! Minyon Yorumların Şekillenmesinin Bitişi*/
 
-
-
-
-
-    /* footer start */
+/* footer başlangıcı */
     :root {
         --github: #fff;
         --linkedin:#fff;
@@ -383,9 +360,7 @@ a {
         color: #000000 !important;
         scale:1.5;
         }
-        
-        
-        /* footer end */
+        /*! Footer Bitişi*/
         
         
           
