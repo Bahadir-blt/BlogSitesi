@@ -1,4 +1,4 @@
-                 /* Kullanılan Fontun Eklenmesi ; Google Fontsdan Alınmıştır */
+ /* Kullanılan Fontun Eklenmesi ; Google Fontsdan Alınmıştır */
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 /* Temel Css Kodlarının Eklenmesi (Tüm Sayfamızı Etkiler */
@@ -154,7 +154,7 @@ h1 {	font-weight: 300;
 }
 
 .footer .links a:hover {
-  background-color: var(--black-color);
+  background-color: black;
   opacity: 0.7;
 }
 
