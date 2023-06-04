@@ -1,10 +1,11 @@
+  /*  Renklerin Tanıtılması*/
 :root {
-    --main-color: #e84242;
+    
     --black-color: #121212;
     --border: 0.1rem solid rgba(255 255 255 0.4);
 }
 
-/* base html codes */
+/* Temel html kodlarının css ile şekillenmesi*/
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -74,7 +75,9 @@ a {
     border-radius: 3rem;
 }
 
-/* header start */
+/*!BİTİŞ */
+
+/* Başlığın Şekillendirilmesi */
 .logo img {
     height: 7rem;
     width: 75px;
@@ -118,9 +121,9 @@ a {
 #menu-btn{
    display: none;
 }
-/* header end */
+/*!Başlığın Şekillendirilmesi BİTİŞİ */
 
-/* home start   */
+/* ANA SAYFA BAŞLANGIÇ   */
 .home {
     margin-right:100%;
      width: 100%;
@@ -151,11 +154,10 @@ a {
     margin-top:390px;
     text-align: center;
 }
+/* !Ana Sayfa Bitiş */
 
-/* home end */
 
-
-/* footer start */
+/* footer Kısmının Şekillendirilmesi*/
 :root {
     --github: #fff;
     --linkedin:#fff;
@@ -211,5 +213,5 @@ a {
     }
     
     
-    /* footer end */
+    /*!BİTİŞ */
     
