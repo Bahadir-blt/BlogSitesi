@@ -34,7 +34,8 @@ h1 {	font-weight: 300;
 /*! Giriş Bölümü Bitiş */
 
 /* Video Konumlandırma */
-.video-container {	position: absolute;
+.video-container {	
+  position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
